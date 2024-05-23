@@ -63,7 +63,7 @@ function Grid() {
         <div className='w-[19vw] h-full [@media(max-width:600px)]:w-full'>
           {AllPost[0] && AllPost[0].map((post) => {
               // post is object of posts
-              return <PostCard key={post.featuredImage} user={userData} Likes={post.Likes} userID={post.userID} Grids={post.Grids} featuredImage = {post.featuredImage} postId={post.$id} presentData={true}/>
+              return <PostCard key={post.featuredImage} user={userData} Likes={post.Likes} userID={post.userID} Grids={post.Grids} featuredImage = {post.featuredImage} postId={post.$id} presentData={true} Caption={post.Caption}/>
           })}
         </div>
         <div className='w-[17vw] h-full [@media(max-width:600px)]:w-full'>
@@ -75,19 +75,19 @@ function Grid() {
         <div className='w-[17vw] h-full [@media(max-width:600px)]:w-full'>
           {AllPost[2] && AllPost[2].map((post) => {
               
-              return <PostCard key={post.featuredImage} user={userData} Likes={post.Likes} userID={post.userID} Grids={post.Grids} featuredImage = {post.featuredImage} postId={post.$id} presentData={true}/>
+              return <PostCard key={post.featuredImage} user={userData} Likes={post.Likes} userID={post.userID} Grids={post.Grids} featuredImage = {post.featuredImage} postId={post.$id} presentData={true} Caption={post.Caption}/>
           })}
         </div>
         <div className='w-[17vw] h-full [@media(max-width:600px)]:w-full'>
           {AllPost[3] && AllPost[3].map((post) => {
               
-              return <PostCard key={post.featuredImage} user={userData} Likes={post.Likes} userID={post.userID} Grids={post.Grids} featuredImage = {post.featuredImage} postId={post.$id} presentData={true}/>
+              return <PostCard key={post.featuredImage} user={userData} Likes={post.Likes} userID={post.userID} Grids={post.Grids} featuredImage = {post.featuredImage} postId={post.$id} presentData={true} Caption={post.Caption}/>
           })}
         </div>
         <div className='w-[17vw] h-full [@media(max-width:600px)]:w-full'>
           {AllPost[4] && AllPost[4].map((post) => {
               
-              return <PostCard key={post.featuredImage} user={userData} Likes={post.Likes} userID={post.userID} Grids={post.Grids} featuredImage = {post.featuredImage} postId={post.$id} presentData={true}/>
+              return <PostCard key={post.featuredImage} user={userData} Likes={post.Likes} userID={post.userID} Grids={post.Grids} featuredImage = {post.featuredImage} postId={post.$id} presentData={true} Caption={post.Caption}/>
           })}
         </div>
       </div>

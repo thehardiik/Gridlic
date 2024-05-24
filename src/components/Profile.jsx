@@ -62,31 +62,31 @@ function Profile() {
                         <div className='w-[19vw] h-full [@media(max-width:600px)]:w-full'>
                         {AllPost[0] && AllPost[0].map((post) => {
                             
-                            return <PostCard key={post.featuredImage} user={userData} Likes={post.Likes} userID={post.userID} Grids={post.Grids} featuredImage = {post.featuredImage} postId={post.$id} presentData = {false}/>
+                            return <PostCard key={post.featuredImage} user={userData} Likes={post.Likes} userID={post.userID} Grids={post.Grids} featuredImage = {post.featuredImage} postId={post.$id} presentData = {false} Caption={post.Caption}/>
                         })}
                         </div>
                         <div className='w-[17vw] h-full [@media(max-width:600px)]:w-full'>
                         {AllPost[1] && AllPost[1].map((post) => {
                             
-                            return <PostCard key={post.featuredImage} user={userData} Likes={post.Likes} userID={post.userID} Grids={post.Grids} featuredImage = {post.featuredImage} postId={post.$id} presentData = {false}/>
+                            return <PostCard key={post.featuredImage} user={userData} Likes={post.Likes} userID={post.userID} Grids={post.Grids} featuredImage = {post.featuredImage} postId={post.$id} presentData = {false} Caption={post.Caption}/>
                         })}
                         </div>
                         <div className='w-[17vw] h-full [@media(max-width:600px)]:w-full'>
                         {AllPost[2] && AllPost[2].map((post) => {
                             
-                            return <PostCard key={post.featuredImage} user={userData} Likes={post.Likes} userID={post.userID} Grids={post.Grids} featuredImage = {post.featuredImage} postId={post.$id} presentData = {false}/>
+                            return <PostCard key={post.featuredImage} user={userData} Likes={post.Likes} userID={post.userID} Grids={post.Grids} featuredImage = {post.featuredImage} postId={post.$id} presentData = {false} Caption={post.Caption}/>
                         })}
                         </div>
                         <div className='w-[17vw] h-full [@media(max-width:600px)]:w-full'>
                         {AllPost[3] && AllPost[3].map((post) => {
                             
-                            return <PostCard key={post.featuredImage} user={userData} Likes={post.Likes} userID={post.userID} Grids={post.Grids} featuredImage = {post.featuredImage} postId={post.$id} presentData = {false}/>
+                            return <PostCard key={post.featuredImage} user={userData} Likes={post.Likes} userID={post.userID} Grids={post.Grids} featuredImage = {post.featuredImage} postId={post.$id} presentData = {false} Caption={post.Caption}/>
                         })}
                         </div>
                         <div className='w-[17vw] h-full [@media(max-width:600px)]:w-full'>
                         {AllPost[4] && AllPost[4].map((post) => {
                             
-                            return <PostCard key={post.featuredImage} user={userData} Likes={post.Likes} userID={post.userID} Grids={post.Grids} featuredImage = {post.featuredImage} postId={post.$id} presentData = {false}/>
+                            return <PostCard key={post.featuredImage} user={userData} Likes={post.Likes} userID={post.userID} Grids={post.Grids} featuredImage = {post.featuredImage} postId={post.$id} presentData = {false} Caption={post.Caption}/>
                         })}
                         </div>
                     </div>
